@@ -19,3 +19,8 @@ We divided our work in the following manner:
 # Combinations and Permutations
 1. Planning Resources: If prisoners have limited resources or people, we can calculate different ways to use them most effectively.
 2. Creating Escape Plans: We can look at different sequences of actions and find the one that's most likely to succeed.
+# Logic and Boolean Algebra
+1. Understanding Security Systems: By using logic, we can figure out how alarms and sensors work and look for weaknesses.​
+2. Decision Trees: We can map out each choice, like a tree, showing what might happen after each decision to pick the best options.​
+
+​

@@ -16,3 +16,6 @@ We divided our work in the following manner:
 # Graph Theory
 1. Mapping the Prison: We can create a map (a graph) where rooms and hallways are connected like dots (nodes) and lines (edges). This makes it easier to plan possible routes to escape.​
 2. Finding the Best Path: We can use math to find the shortest or safest way out, avoiding areas with guards or cameras.​
+# Combinations and Permutations
+1. Planning Resources: If prisoners have limited resources or people, we can calculate different ways to use them most effectively.
+2. Creating Escape Plans: We can look at different sequences of actions and find the one that's most likely to succeed.

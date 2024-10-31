@@ -1,11 +1,11 @@
 # Prison_Break
 Discrete Structure Show and Tell Project of Prison Break
 # Agenda
-1.Graph Theory​
-2.Combination and Permutations ​
-3.Logic and Boolean algebra​
-4.Game theory​
-5.Probability​
+1. Graph Theory​
+2. Combination and Permutations ​
+3. Logic and Boolean algebra​
+4. Game theory​
+5. Probability​
 # Contribution 
 We divided our work in the following manner:
 Graph Theory: Toheed Ali

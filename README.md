@@ -22,3 +22,10 @@ Logic involves reasoning through true or false statements, known as propositions
 
 # Set Theory:
 Set theory allows us to group related objects, such as different groups of cells, accessible paths, or guard positions, to manage them systematically. In the "Prison Break" model, sets can represent cells within guard sight, possible escape routes, or even restricted zones. Using unions, intersections, and differences between sets, we can refine our escape plans by determining areas that are safe, unsafe, or accessible. This mathematical foundation helps us define clear relationships between different parts of the prison layout
+
+
+Combination and Permutations:
+As with all other motions and actions, certain combinations or groups have to be selected when interpreting the problem’s escape routes or movements. They allow for several different possible sequences of moves to be attempted or for the best paths to be chosen provided certain constraints are met. This will also explain why it is possbile to regard movements in terms of their positional or economical success quotient. Combinatorial theory helps examine all possible actions and come up with the best strategy for an escape.
+
+Path Finding Algorithm (BFS and DFS):
+Each point on this graph has specific connections to other points and can be used to map out movements or focus on a goal through a variety of different paths. Breadth-First Search searches all the nodes at the present depth level before moving on to nodes at the next depth level. These algorithms assist in the search for locations where a prisoner may relocate and the best escape routes, in addition to selection criteria for the best path through structures to guards or doors. Once again by placement of either BFS or DFS the fastest or the most secure escape is settled.

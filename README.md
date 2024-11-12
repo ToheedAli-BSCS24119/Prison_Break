@@ -11,6 +11,10 @@ Discrete Structure Show and Tell Project of Prison Break
 8. Live demo of Prison Break (Code)
 9. Real_World Application
 10. Thought Provoking Questions & Discussion
-# Introduction to Graph Theory: 
-Graph theory is the study of vertices (nodes) and edges (connections), which helps model various systems, including networks and pathways.
+# Introduction to Graph Theory:
+Graph theory is a branch of mathematics that studies structures formed by nodes (vertices) and edges (connections). It allows us to represent and analyze relationships and pathways in a variety of systems, such as social networks, road maps, and communication networks. Graphs provide a way to visualize and solve problems involving connectivity and flow. In the context of our project, graph theory helps us model and understand the "Prison Break" setup.
+
+# Prison Break Concept in Graph Theory:
+The "Prison Break" concept uses graph theory to represent a prison layout, where cells, guards, and hallways become nodes, and possible escape routes are edges. This model helps us simulate escape strategies by visualizing the relationships and potential movements within the prison. By treating the prison as a graph, we can apply algorithms to find optimal paths, avoid obstacles, or even locate safe zones. This graphical representation is crucial in designing and analyzing escape plans.
+
 

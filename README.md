@@ -11,3 +11,6 @@ Discrete Structure Show and Tell Project of Prison Break
 8. Live demo of Prison Break (Code)
 9. Real_World Application
 10. Thought Provoking Questions & Discussion
+# Introduction to Graph Theory: 
+Graph theory is the study of vertices (nodes) and edges (connections), which helps model various systems, including networks and pathways.
+

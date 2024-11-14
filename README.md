@@ -27,5 +27,23 @@ Set theory allows us to group related objects, such as different groups of cells
 # Combination and Permutations:
 Combinations and permutations help calculate the different ways of arranging or selecting escape routes and movements, taking order and grouping into account. In "Prison Break," they allow us to examine multiple possible sequences of moves or select the optimal paths considering various conditions. For example, by calculating permutations of movements, we can simulate different escape routes and assess their success probabilities. This combinatorial approach provides a structured way to explore all possible actions for effective escape planning.
 
+A BIT MORE EXPLANATION:
+Formula for permutations:
+P(n,r)=n!/(n-r)!
+Where:
+•	n= total number of objects,
+•	r = number of objects selected,
+•	! represents factorial (e.g., 5!=5×4×3×2×15! = 5 \times 4 \times 3 \times 2 \times 1 times=5×4×3×2×1).
+Formula for combinations:
+C(n,r)=n!/r!(n-r)!Where:
+•	n = total number of objects,
+•	r = number of objects selected.
+suppose i have 1 prisoner that will escape and 3 escape routes
+then combination will be better to use
+hence I have 
+C(3,1)=3!/1!(3-1)!
+C(3,1)=3
+HENCE 3 POSSIBLE COMBINATIONS OF ESCAPE NOW I WILL USE MORE ROUTES AND GUARDS AND WALLS AND TRAPS ETC ETC
+
 # Path Finding Algorithm (BFS and DFS):
 Breadth-First Search (BFS) and Depth-First Search (DFS) are foundational graph algorithms that explore possible paths through a network of nodes. BFS systematically explores each level, ideal for finding the shortest path in an unweighted graph, while DFS dives deep into each branch, useful for exhaustive exploration. In "Prison Break," these algorithms help identify viable escape routes, prioritize paths, and navigate around obstacles like guards or locked doors. By applying BFS or DFS, we can determine the quickest or safest escape plan.

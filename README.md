@@ -24,6 +24,12 @@ Undirected graph consists of nodes connected by edges that have no direction, me
 ### Examples
 1. "Cell Block A" ↔ "Hallway" (bidirectional path)
 2. "Hallway" ↔ "Yard" (bidirectional path)
+## Weighted Graph
+A weighted graph assigns a numerical value (weight) to each edge, representing the "cost" of traveling along that edge (e.g., time, distance, or risk).
+### Examples
+1. "Cell Block A" → "Kitchen" with weight 5 (safe but longer route)
+2. "Kitchen" → "Laundry Room" with weight 2 (shorter, but a risky route guarded by cameras)
+3. "Laundry Room" → "Vent System" with weight 3 (risky but short)
 
 # Prison Break Concept in Graph Theory:
 The "Prison Break" concept uses graph theory to represent a prison layout, where cells, guards, and hallways become nodes, and possible escape routes are edges. This model helps us simulate escape strategies by visualizing the relationships and potential movements within the prison. By treating the prison as a graph, we can apply algorithms to find optimal paths, avoid obstacles, or even locate safe zones. This graphical representation is crucial in designing and analyzing escape plans.

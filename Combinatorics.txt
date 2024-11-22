@@ -1,0 +1,29 @@
+Combinatorics:
+
+Combinations and permutations help calculate the different ways of arranging or selecting escape routes and movements, taking order and grouping into account. In "Prison Break," they allow us to examine multiple possible sequences of moves or select the optimal paths considering various conditions. For example, by calculating permutations of movements, we can simulate different escape routes and assess their success probabilities. This combinatorial approach provides a structured way to explore all possible actions for effective escape planning.
+
+A BIT MORE EXPLANATION:
+ Formula for permutations: P(n,r)=n!/(n-r)!
+ Where: • n= total number of objects, • r = number of objects selected, • ! represents factorial
+ (e.g., 5!=5×4×3×2×15! = 5 \times 4 \times 3 \times 2 \times 1 times=5×4×3×2×1).
+ Formula for combinations: C(n,r)=n!/r!(n-r)!
+Where: • n = total number of objects, • r = number of objects selected.
+ suppose i have 1 prisoner that will escape and 3 escape routes then combination will be better to use hence I have C(3,1)=3!/1!(3-1)! C(3,1)=3
+ HENCE 3 POSSIBLE COMBINATIONS OF ESCAPE NOW I WILL USE MORE ROUTES AND GUARDS AND WALLS AND TRAPS ETC ETC
+
+
+
+UPDATE 3:
+
+
+We have actually 3 prisoners and each one can escape alone or with any other member or all the 3 members can escape together because the prisons are joined as indicated by our tentative map design
+
+here the total arrangements by which the prisoners can escape is find by the permutations logics. We have 3 prisoners and each prisoner can escape alone w=or with any other member. i.e each 1 2 3 prisoner can escape without each other or other 2 members can escape together or all 3 can escape all together. Its a very fun process to calculate it .
+
+We use the simple permutation formulas for this word
+There are 7 ways the prisoners can escape 
+in Permutation we use
+3P3 + 3P2 + 3P1 = 1 + 3 + 3
+Hence 7 possible arrangements in which the members can escape 
+
+This is only the starting of combinatorics here

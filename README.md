@@ -6,11 +6,12 @@ Discrete Structure Show and Tell Project of Prison Break
 3. Logic and Propositions
 4. Set theory
 5. Combination and Permutations
-6. Path Finding Algorithm(BFS and DFS)
-7. Comparison of Algorithm
-8. Live demo of Prison Break (Code)
-9. Real_World Application
-10. Thought Provoking Questions & Discussion
+6. PROBABILITY
+7. Path Finding Algorithm(BFS and DFS)
+8. Comparison of Algorithm
+9. Live demo of Prison Break (Code)
+10. Real_World Application
+11. Thought Provoking Questions & Discussion
 # Introduction to Graph Theory:
 Graph theory is a branch of mathematics that studies structures formed by nodes (vertices) and edges (connections). It allows us to represent and analyze relationships and pathways in a variety of systems, such as social networks, road maps, and communication networks. Graphs provide a way to visualize and solve problems involving connectivity and flow. In the context of our project, graph theory helps us model and understand the "Prison Break" setup.
 ## Directed Graph
@@ -43,6 +44,9 @@ Set theory allows us to group related objects, such as different groups of cells
 
 # Combination and Permutations:
 Combinations and permutations help calculate the different ways of arranging or selecting escape routes and movements, taking order and grouping into account. In "Prison Break," they allow us to examine multiple possible sequences of moves or select the optimal paths considering various conditions. For example, by calculating permutations of movements, we can simulate different escape routes and assess their success probabilities. This combinatorial approach provides a structured way to explore all possible actions for effective escape planning.
+
+# PROBABILITY:
+Probability measures the likelihood of an event occurring, ranging from 0  to 1. It is crucial in fields like statistics, science, and economics for making predictions under uncertainty. Key concepts include events, outcomes, and probability distributions.
 
 A BIT MORE EXPLANATION:
 Formula for permutations:

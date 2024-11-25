@@ -17,23 +17,44 @@ Graph theory is a branch of mathematics that studies structures formed by nodes 
 ## Directed Graph
 A directed graph consists of nodes connected by edges, where each edge has a specific direction (from one node to another).
 ### Examples
-1. "Cell Block A" → "Hallway" (one-way path)
+1. "Cell A" → "Hallway" (one-way path)
 2. "Hallway" → "Yard" (one-way path)
 3. But no edge from "Yard" → "Hallway" (because you can’t go back)
 ## Undirected Graph
 Undirected graph consists of nodes connected by edges that have no direction, meaning you can move freely in either direction between two connected nodes.
 ### Examples
-1. "Cell Block A" ↔ "Hallway" (bidirectional path)
+1. "Cell A" ↔ "Hallway" (bidirectional path)
 2. "Hallway" ↔ "Yard" (bidirectional path)
-## Weighted Graph
-A weighted graph assigns a numerical value (weight) to each edge, representing the "cost" of traveling along that edge (e.g., time, distance, or risk).
-### Examples
-1. "Cell Block A" → "Kitchen" with weight 5 (safe but longer route)
-2. "Kitchen" → "Laundry Room" with weight 2 (shorter, but a risky route guarded by cameras)
-3. "Laundry Room" → "Vent System" with weight 3 (risky but short)
 
 # Prison Break Concept in Graph Theory:
 The "Prison Break" concept uses graph theory to represent a prison layout, where cells, guards, and hallways become nodes, and possible escape routes are edges. This model helps us simulate escape strategies by visualizing the relationships and potential movements within the prison. By treating the prison as a graph, we can apply algorithms to find optimal paths, avoid obstacles, or even locate safe zones. This graphical representation is crucial in designing and analyzing escape plans.
+
+# Set Theory
+## Sets and Elements:
+### Location:
+Let 𝐿 be the set of all locations in the prison.
+𝐿 = { Cell 1, Cell 2, Cell 3, Common Room, Enter, Exit, Watch Tower}
+
+### Prisoners:
+Let P = { p₁, p₂, p₃ } where:
+p₁ represents Prisoner A (in Cell 1).
+p​₂ represents Prisoner B (in Cell 2).
+p₃​ represents Prisoner C (in Cell 3).
+
+### Guards:
+Let G = { g₁ ,g₂ ,g₃, g₄ } where:
+g₁ monitors between Cell 2 → Enter repeatedly.
+g₂ monitors between Cell 3 → Exit repeatedly.
+g₃​ moves between Guard 1’s Location → Guard 2’s Location → Common Room.
+g₄ alternates between Enter → Exit repeatedly from the Watchtower
+
+### Edges (Connections)
+Let E ⊆ 𝐿 × 𝐿   be the set of edges representing valid paths between locations:
+   E = { (Cell 1, Common Room), (Cell 2, Common Room), (Cell 3, Common Room), (Common Room, Enter), (Common Room, Exit), (Common Room, Watch Tower) }
+   
+### Time
+Let T represent the set of all possible times:
+T₁ = { Lunch Time, Play Time }
 
 # Logic and Propositions:
 Logic involves reasoning through true or false statements, known as propositions, to build structured arguments or decisions. In "Prison Break," logical statements can model guard behaviors, alarm triggers, or safe passage conditions. Boolean logic helps us combine propositions to form complex conditions necessary for planning an escape. For instance, by combining propositions, we can decide if a particular escape route is feasible based on guard placements.

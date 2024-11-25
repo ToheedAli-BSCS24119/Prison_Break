@@ -30,6 +30,8 @@ Undirected graph consists of nodes connected by edges that have no direction, me
 The "Prison Break" concept uses graph theory to represent a prison layout, where cells, guards, and hallways become nodes, and possible escape routes are edges. This model helps us simulate escape strategies by visualizing the relationships and potential movements within the prison. By treating the prison as a graph, we can apply algorithms to find optimal paths, avoid obstacles, or even locate safe zones. This graphical representation is crucial in designing and analyzing escape plans.
 
 # Set Theory
+Set theory allows us to group related objects, such as different groups of cells, accessible paths, or guard positions, to manage them systematically. In the "Prison Break" model, sets can represent cells within guard sight, possible escape routes, or even restricted zones. Using unions, intersections, and differences between sets, we can refine our escape plans by determining areas that are safe, unsafe, or accessible. This mathematical foundation helps us define clear relationships between different parts of the prison layout
+
 ## Sets and Elements:
 ### Location:
 1. Let 𝐿 be the set of all locations in the prison.
@@ -56,11 +58,20 @@ The "Prison Break" concept uses graph theory to represent a prison layout, where
 1. Let T represent the set of all possible times:
 2. T₁ = { Lunch Time, Play Time }
 
-# Logic and Propositions:
+# Logics and Proposition in Prison Break
 Logic involves reasoning through true or false statements, known as propositions, to build structured arguments or decisions. In "Prison Break," logical statements can model guard behaviors, alarm triggers, or safe passage conditions. Boolean logic helps us combine propositions to form complex conditions necessary for planning an escape. For instance, by combining propositions, we can decide if a particular escape route is feasible based on guard placements.
 
-# Set Theory:
-Set theory allows us to group related objects, such as different groups of cells, accessible paths, or guard positions, to manage them systematically. In the "Prison Break" model, sets can represent cells within guard sight, possible escape routes, or even restricted zones. Using unions, intersections, and differences between sets, we can refine our escape plans by determining areas that are safe, unsafe, or accessible. This mathematical foundation helps us define clear relationships between different parts of the prison layout
+## Rule 1: 
+### Movement Constraint
+1. A prisoner Pᵢ can move from location x to location y at time t if:
+2. There is a direct edge between x and y: E(x,y)
+3. y is not monitored by any guard at that time: ¬∃kGₖ​(y,t)
+4. Formal Representation: ∀t ∈ T, ∀Pᵢ ∈ P, ∀x,y ∈ L, (Pᵢ (x,t) ∧ E(x,y) ∧ ¬∃kGₖ(y,t)) → Pᵢ(y, t+1)
+
+## Rule 2: 
+### Cell Gate Access
+1. A prisoner can leave their cell Cellᵢ only if the cell gate is open at time t
+2. Formal Representation: ∀t∈T,∀Pᵢ∈P,(Pᵢ​(Cellᵢ​,t)∧O꜀ₑₗₗᵢ​​(t))→Pᵢ​(Common Room,t+1)
 
 
 # Combination and Permutations:

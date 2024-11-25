@@ -32,29 +32,29 @@ The "Prison Break" concept uses graph theory to represent a prison layout, where
 # Set Theory
 ## Sets and Elements:
 ### Location:
-Let 𝐿 be the set of all locations in the prison.
-𝐿 = { Cell 1, Cell 2, Cell 3, Common Room, Enter, Exit, Watch Tower}
+1. Let 𝐿 be the set of all locations in the prison.
+2. 𝐿 = { Cell 1, Cell 2, Cell 3, Common Room, Enter, Exit, Watch Tower}
 
 ### Prisoners:
-Let P = { p₁, p₂, p₃ } where:
-p₁ represents Prisoner A (in Cell 1).
-p​₂ represents Prisoner B (in Cell 2).
-p₃​ represents Prisoner C (in Cell 3).
+1. Let P = { p₁, p₂, p₃ } where:
+2. p₁ represents Prisoner A (in Cell 1).
+3. p​₂ represents Prisoner B (in Cell 2).
+4. p₃​ represents Prisoner C (in Cell 3).
 
 ### Guards:
-Let G = { g₁ ,g₂ ,g₃, g₄ } where:
-g₁ monitors between Cell 2 → Enter repeatedly.
-g₂ monitors between Cell 3 → Exit repeatedly.
-g₃​ moves between Guard 1’s Location → Guard 2’s Location → Common Room.
-g₄ alternates between Enter → Exit repeatedly from the Watchtower
+1. Let G = { g₁ ,g₂ ,g₃, g₄ } where:
+2. g₁ monitors between Cell 2 → Enter repeatedly.
+3. g₂ monitors between Cell 3 → Exit repeatedly.
+4. g₃​ moves between Guard 1’s Location → Guard 2’s Location → Common Room.
+5. g₄ alternates between Enter → Exit repeatedly from the Watchtower
 
 ### Edges (Connections)
-Let E ⊆ 𝐿 × 𝐿   be the set of edges representing valid paths between locations:
-   E = { (Cell 1, Common Room), (Cell 2, Common Room), (Cell 3, Common Room), (Common Room, Enter), (Common Room, Exit), (Common Room, Watch Tower) }
+1. Let E ⊆ 𝐿 × 𝐿   be the set of edges representing valid paths between locations:
+2. E = { (Cell 1, Common Room), (Cell 2, Common Room), (Cell 3, Common Room), (Common Room, Enter), (Common Room, Exit), (Common Room, Watch Tower) }
    
 ### Time
-Let T represent the set of all possible times:
-T₁ = { Lunch Time, Play Time }
+1. Let T represent the set of all possible times:
+2. T₁ = { Lunch Time, Play Time }
 
 # Logic and Propositions:
 Logic involves reasoning through true or false statements, known as propositions, to build structured arguments or decisions. In "Prison Break," logical statements can model guard behaviors, alarm triggers, or safe passage conditions. Boolean logic helps us combine propositions to form complex conditions necessary for planning an escape. For instance, by combining propositions, we can decide if a particular escape route is feasible based on guard placements.

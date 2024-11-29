@@ -22,28 +22,37 @@ here the total arrangements by which the prisoners can escape is find by the per
 
 We use the simple permutation formulas for this word
 There are 7 ways the prisoners can escape 
-in combination we use
+in combinations we use
 3C3 + 3C2 + 3C1 = 1 + 3 + 3
-Hence 7 possible arrangements in which the members can escape 
+
+Hence 7 possible arrangements in which the members can escape
+theres also a possibility that no one escapes we will add it
+3C3+3C2+3C1+3C0=1+3+3+1
+Hence we have 8 combinations.
 This is only the starting of combinatorics here
 
+
 UPDATE 4:
-According to the map, we have 3 prisoners with 2 guards but also a single watchtower that watches 
+According to the map, we have 3 prisoners with 3 guards but also a single watchtower that watches 
 For combinatorics we must know the guards movements and also the watchtower one.
-Guard 1 can move from its rest position to common room and cell2.
-similarly guard 2 can move to common room and exit.
+Guard 1 can move from its rest position to cell 2 and enter
+similarly guard 2 can move to cell 3 and exit.
+Guard 3 is at common room and can move horizontally.
 while the watch tower can see towards ENTER or EXIT but only one at a time
 
 hence the states are 2 for guards and 2 for the tower.
-Hence total configurations of guards movements=2*2*2 = 8
+Hence total configurations of guards movements=2*2*2*2=16
+
 
 UPDATE 5:
-There are 2 escape routes. The enter is also the exit but changed names while the exit is obviously the exit.
+There is 1 escape routes. the exit is the only escape route.
 To calculate the total no of outcomes we can use the product rule .It is a very complicated problem.
 Using discrete math we know that 8 total guard movements are present. We have to multiply it with something to actually find the total outcomes.
-Now we know that any prisoner total movement probability of any member is 12
+We know that if we dont stop the prisoners movement limit .They will move in an infinite loop to counter this i have use a 8 step limit of the prisoners
 According to my observations 
-Outcomes= Guards movement * arrangements of prisoners * total movement probability of any member
-outcomes= 8 * 7 * 12
-=672
-this is just the tentative not the final answer
+Outcomes= Guards movement * arrangements of prisoners * total movement possibility
+outcomes= 16 * 8 * 8
+=1024
+this includes the outcomes in which prisoners escape or are not able to escape.
+
+

@@ -10,3 +10,10 @@ Description:
 The prediction of winning of any cricket team we see in matches is actually the probability. It has applications in sports, weather prediction, medicine, finance and economics and also in criminology. 
 
 In our prison break project. We will use probability to calculate our risk factor during the escape and the success percentage finding.
+Continuening from the combinatorics we have 1024 total paths of anything. Now if we want to find the probability of the ways in which prisoners succeed we just assume because the whole calculation is simply not possible.
+
+With 3 guards and a watch tower around we can assume that the prisoners can escape about 3 in 100 times.
+so,
+=1024*3/100=30.72
+
+hence about 31 times of 1024 tries.The prisoners succeed in breaking while about 993 the prisoners are caught or are unable to escape

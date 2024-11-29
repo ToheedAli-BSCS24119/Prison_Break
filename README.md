@@ -101,13 +101,13 @@ HENCE 3 POSSIBLE COMBINATIONS OF ESCAPE NOW I WILL USE MORE ROUTES AND GUARDS AN
 Breadth-First Search (BFS) and Depth-First Search (DFS) are foundational graph algorithms that explore possible paths through a network of nodes. BFS systematically explores each level, ideal for finding the shortest path in an unweighted graph, while DFS dives deep into each branch, useful for exhaustive exploration. In "Prison Break," these algorithms help identify viable escape routes, prioritize paths, and navigate around obstacles like guards or locked doors. By applying BFS or DFS, we can determine the quickest or safest escape plan.
 
 # Live demo of Prison Break (Code)
-1 Finding the shortest escape route from the start (S) to the exit (E) while avoiding walls (#) and guards (G) using Breadth-First Search (BFS).
-2 S: Start (Prisoner's initial position)
-3 E: Exit (Escape point)
-4 #: Wall (Impassable area)
-5 G: Guard (Guarded area)
-6 .: Free Space (Path)
-7 Prison Grid: The layout of the prison is represented as a 2D list, with each cell containing a character representing walls, guards, or free space.
+1. Finding the shortest escape route from the start (S) to the exit (E) while avoiding walls (#) and guards (G) using Breadth-First Search (BFS).
+2. S: Start (Prisoner's initial position)
+3. E: Exit (Escape point)
+4. #: Wall (Impassable area)
+5. G: Guard (Guarded area)
+6. .: Free Space (Path)
+7. Prison Grid: The layout of the prison is represented as a 2D list, with each cell containing a character representing walls, guards, or free space.
 
 # Real-World Application
 1. Navigation and Routing Systems

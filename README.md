@@ -99,3 +99,39 @@ HENCE 3 POSSIBLE COMBINATIONS OF ESCAPE NOW I WILL USE MORE ROUTES AND GUARDS AN
 
 # Path Finding Algorithm (BFS and DFS):
 Breadth-First Search (BFS) and Depth-First Search (DFS) are foundational graph algorithms that explore possible paths through a network of nodes. BFS systematically explores each level, ideal for finding the shortest path in an unweighted graph, while DFS dives deep into each branch, useful for exhaustive exploration. In "Prison Break," these algorithms help identify viable escape routes, prioritize paths, and navigate around obstacles like guards or locked doors. By applying BFS or DFS, we can determine the quickest or safest escape plan.
+
+# Live demo of Prison Break (Code)
+1 Finding the shortest escape route from the start (S) to the exit (E) while avoiding walls (#) and guards (G) using Breadth-First Search (BFS).
+2 S: Start (Prisoner's initial position)
+3 E: Exit (Escape point)
+4 #: Wall (Impassable area)
+5 G: Guard (Guarded area)
+6 .: Free Space (Path)
+7 Prison Grid: The layout of the prison is represented as a 2D list, with each cell containing a character representing walls, guards, or free space.
+
+# Real-World Application
+1. Navigation and Routing Systems
+Example: Google Maps, Uber.
+Use: Graphs represent locations (nodes) and roads (edges) for optimal routing.
+Impact: Saves time and reduces fuel by providing the fastest routes.
+
+2. Computer Networks
+Example: Internet traffic. 
+Use: Algorithms find the fastest paths for data packets. 
+Impact: Ensures quick and reliable data transmission. 
+
+3. Social Network Analysis
+Example: Facebook, LinkedIn. 
+Use: Graphs connect users (nodes) and relationships (edges) for friend recommendations. 
+Impact: Enhances user engagement and community building.
+
+4. Traffic Signal Control Systems
+Example: Smart city traffic management. 
+Use: Optimizes traffic light timings using graph-based algorithms. 
+Impact: Reduces congestion and improves traffic flow. 
+
+# Conclusion: 
+By using ideas from discrete mathematics, inmates can plan a prison break in an organized way. This presentation showed how graph theory, set theory, logics and combinations and permutation can help find and use weak points in the prison system.
+
+
+
